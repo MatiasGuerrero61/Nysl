@@ -1,0 +1,72 @@
+*{
+	background: #04B45F;
+	margin: 0px;
+	padding: 0px;
+}
+#titulo{
+	color:white;
+	display: flex;
+	font-size: 60px;
+	background: none;
+	position:absolute;
+	left: 20%;
+	right: 15%;
+	top: 40%;
+	font-family: 'Montserrat', sans-serif;
+}
+li{
+	padding: 25px;
+}
+#headerImg{
+	height: 20%;
+	width: -webkit-fill-available;
+}
+#sub{
+	color:white;
+	background: #61210B;
+}
+#subtitulo{
+	background: none;
+	text-align: -webkit-center;
+	font-size: 40px;
+}
+#logo{
+	width: 80px;
+	position: absolute;
+	background: none;
+	left: 80%;
+	top: 110%;
+}
+#contenedor{
+	padding: 20px;
+}
+#menu{
+	display: block;
+	margin-left: 5%;
+	float: left;
+}
+#cuerpo{
+	margin-left: 30%
+}
+#events{
+	font-size: 30px;
+	padding: 10px;
+}
+h3{
+	padding-top: 10px;
+}
+#pie_de_pagina{
+	text-align: center;
+	background: none; 
+	clear: both;
+	padding: 20px;
+}
+section{
+	padding:20px;
+}
+.contacto{
+	padding: 10px;
+}
+p{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
