@@ -31,6 +31,7 @@
 	font-size: 40px;
 }
 #logo{
+	background-image: url(../img/logo.png);
 	width: 80px;
 	position: absolute;
 	background: none;
@@ -70,7 +71,7 @@ p{
 	margin: 20px;
 }
 section{
-	margin:20px;
+	margin:20px 10px 150px 10px;
 }
 .contacto{
 	margin: 10px;

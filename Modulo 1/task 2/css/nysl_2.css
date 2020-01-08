@@ -29,9 +29,11 @@
 	font-size: 40px;
 }
 #logo{
+	background-image: url(../img/logo.png);
+	background-size: cover;
 	width: 200px;
+	height: 200px;
     position: absolute;
-    background: none;
     left: 8%;
 	top: 98%;
 }
@@ -87,7 +89,7 @@ p{
 	margin: 20px;
 }
 section{
-	margin:20px;
+	margin:20px 10px 150px 10px;
 }
 .contacto{
 	margin: 10px;
