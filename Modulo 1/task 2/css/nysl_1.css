@@ -9,8 +9,7 @@
 	font-size: 60px;
 	background: none;
 	position:absolute;
-	left: 20%;
-	right: 15%;
+	left: 13%;
 	top: 40%;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -40,6 +39,10 @@ li{
 #contenedor{
 	padding: 20px;
 }
+.buttom{
+	display: block;
+	padding: 20px;
+}
 #menu{
 	display: block;
 	margin-left: 5%;
@@ -54,6 +57,9 @@ li{
 }
 h3{
 	padding-top: 10px;
+}
+p{
+	margin-left: 10px;
 }
 #pie_de_pagina{
 	text-align: center;
