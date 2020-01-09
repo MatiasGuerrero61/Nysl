@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+*{
+	margin:0;
+	padding: 0;
+}
+
+#contenedor{
+	background-image: url(../img/fondo.png);
+	background-size: cover;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: auto;
+}
+#imagen{
+	margin: 0 30px;
+	background-image: url(../img/imagen_superior.png);
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px; 
+}
+#titulo{
+	position: absolute;
+    font-size: 55px;
+    color: white;
+    left: 298px;
+    bottom: 335px;
+    font-family: 'Barlow', sans-serif;
+}
+#subtitulo{
+	margin:0 30px;
+	font-size: 40px;
+	background:#F7FE2E;
+	border:3px solid;
+	border-color:#FF8000;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+}
+.buttom{
+	display: block;
+	margin:50px 25px;
+	text-decoration-line: none;
+	border-radius: 2em;
+	background: white;
+	text-align: center;
+}
+#menu{
+	background:#31B404;
+	margin-left:30px;
+	width: 50vh;
+	height: 20vw;
+}
+article{
+	display:flex;
+	flex-direction: row;
+}
+#cuerpo{
+	background: white;
+    padding-left: 20px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    width:878px;
+}
+a{
+	font-family: 'Barlow', sans-serif;
+
+}
+a:hover{
+	background-color: #F7FE2E;
+	font-size: 30px;
+	color: #FF8000;
+	cursor:pointer;
+}
+h3{
+	margin: 20px 20px;
+	font-family: 'Baloo Bhai', cursive;
+}
+p{
+	margin:0 40px;
+	font-family: 'Barlow', sans-serif;
+}
+#logo{
+	background-image: url(../img/logo.png);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+    position: absolute;
+    left: 9%;
+    top: 28%;
+}
+#buttom_1{
+	background-color: #F7FE2E;
+	color: #FF8000;
+}
+#buttom_2{
+	background-color: #F7FE2E;
+	color: #FF8000;
+}
+#buttom_3{
+	background-color: #F7FE2E;
+	color: #FF8000;
+}
+#events{
+	margin-top: 20px;
+	font-family: 'Exo 2', sans-serif;
+}
+p{
+	margin: 20px;
+}
+

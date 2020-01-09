@@ -52,16 +52,21 @@
 	font-family: 'Kulim Park', sans-serif;
 }
 a:hover{
-	background-color: green; 
-}
-#buttom_1:visited{
 	background-color: green;
+	cursor: pointer;
+	font-size: 25px; 
 }
-#buttom_2:visited{
+#buttom_1{
 	background-color: green;
+	font-size: 25px;
 }
-#buttom_3:visited{
+#buttom_2{
 	background-color: green;
+	font-size: 25px;
+}
+#buttom_3{
+	background-color: green;
+	font-size: 25px;
 }
 #menu{
  	position: absolute;
