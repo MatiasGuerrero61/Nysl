@@ -96,26 +96,11 @@ p{
     left: 9%;
     top: 28%;
 }
-#buttom_1{
+.select{
 	background-color: #F7FE2E;
 	color: #FF8000;
 }
-#buttom_2{
-	background-color: #F7FE2E;
-	color: #FF8000;
-}
-#buttom_3{
-	background-color: #F7FE2E;
-	color: #FF8000;
-}
-#buttom_4{
-	background-color: #F7FE2E;
-	color: #FF8000;
-}
-#buttom_5{
-	background-color: #F7FE2E;
-	color: #FF8000;
-}
+
 #events{
 	margin-top: 20px;
 	font-family: 'Exo 2', sans-serif;
@@ -134,7 +119,10 @@ ul{
 ol{
 	margin: 20px;
 }
-
+#schedule{
+	text-align: center;
+	font-size: 30px;
+}
 #juegos{
 	display:flex;
 	flex-direction: row;
@@ -171,4 +159,9 @@ th{
 	text-decoration-line: underline;
 	font-style: bold;
 }
+
+label{
+}
+
+
 

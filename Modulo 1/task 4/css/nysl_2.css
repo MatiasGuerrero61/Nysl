@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+	background: #04B45F;
+	margin: 0px;
+	padding: 0px;
+}
+#titulo{
+	color: white;
+	font-size: 48px;
+	background: #61210B;
+	text-align: center;
+	font-family: 'Kanit', sans-serif;
+}
+#imagen{
+	background-image: url("../img/header2.png");
+	height: 460px; 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#sub{
+	color:white;
+	background: #61210B;
+}
+#subtitulo{
+	background: none;
+	text-align: -webkit-center;
+	font-size: 40px;
+}
+#logo{
+	background-image: url(../img/logo.png);
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+    position: absolute;
+    left: 8%;
+	top: 98%;
+}
+#contenedor{
+	margin: 20px;
+}
+.buttom{
+	display: inline;
+	margin: 10px;
+	padding: 10px;
+	border: solid;
+	border-color: black;
+	background: #045FB4;
+	color: white;
+	text-decoration-line: none;
+	font-family: 'Kulim Park', sans-serif;
+	box-shadow: 10px 5px 0 rgb(0,0,0);
+}
+a:hover{
+	background-color: green;
+	cursor: pointer;
+	font-size: 25px; 
+}
+#buttom_1{
+	background-color: green;
+	font-size: 25px;
+}
+#buttom_2{
+	background-color: green;
+	font-size: 25px;
+}
+#buttom_3{
+	background-color: green;
+	font-size: 25px;
+}
+#menu{
+ 	position: absolute;
+    top: 86%;
+    right: 5%;
+    background: none
+}
+#cuerpo{
+	margin-left: 30%
+}
+#events{
+	font-size: 30px;
+	margin: 10px;
+}
+h3{
+	margin-top: 10px;
+}
+p{
+	margin-left: 10px;
+}
+#pie_de_pagina{
+	text-align: center;
+	background: none; 
+	clear: both;
+	margin: 20px;
+}
+section{
+	margin:20px 10px 150px 10px;
+}
+.contacto{
+	margin: 10px;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+}
+span{
+	background: none;
+}
