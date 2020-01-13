@@ -52,10 +52,11 @@
 #menu{
 	background:#11bf26;
 	margin-left:30px;
-	height: 50vh;
+	height: 55vh;
 	width: 20vw;
 	position: sticky;
 	top:0;
+	margin-bottom: 20px;
 }
 article{
 	display:flex;
@@ -75,7 +76,6 @@ a{
 }
 a:hover{
 	background-color: #F7FE2E;
-	font-size: 30px;
 	color: #FF8000;
 	cursor:pointer;
 }
@@ -108,6 +108,10 @@ p{
 	background-color: #F7FE2E;
 	color: #FF8000;
 }
+#buttom_4{
+	background-color: #F7FE2E;
+	color: #FF8000;
+}
 #buttom_5{
 	background-color: #F7FE2E;
 	color: #FF8000;
@@ -131,4 +135,40 @@ ol{
 	margin: 20px;
 }
 
+#juegos{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+ .date{
+ 	text-align: center;
+ }
+ #tablas{
+ 	display: flex;
+ 	flex-direction: start;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ }
+#october{
+	padding-bottom: 30.5px;
+}
+ table{
+ 	margin: 5px;
+ 	border: 2px solid black;
+ }
+
+ td{
+ 	padding:5px;
+ }
+
+#contact{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+th{
+	text-decoration-line: underline;
+	font-style: bold;
+}
 
