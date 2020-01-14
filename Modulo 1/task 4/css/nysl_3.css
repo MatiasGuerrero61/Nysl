@@ -134,7 +134,7 @@ ol{
  }
  #tablas{
  	display: flex;
- 	flex-direction: start;
+ 	flex-direction: row;
  	justify-content: center;
  	flex-wrap: wrap;
  }
@@ -157,11 +157,48 @@ ol{
 }
 th{
 	text-decoration-line: underline;
-	font-style: bold;
+}
+#formulario{
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr 2fr;
+	grid-gap: 5px;
+}
+ #addressTxt{
+ 	grid-column: 2 / span 3;
+ }
+#gender{
+	grid-column: 3 / span 2;
+}
+#grade{
+	grid-column: 1 / span 4;
+}
+#tutorTxt{
+	grid-column: 2 / span 3;
+}
+#qSchool{
+	grid-column: 1 / span 4;
+}
+#fCSchool{
+	grid-column: 1 / span 2;
+}
+#sCSchool{
+	grid-column: 3 / span 2;
+}
+#schools1{
+	grid-column: 1 / span 2;
+}
+#schools2{
+	grid-column: 3 / span 2;
+}
+#schools3{
+	grid-column: 1 / span 2;
+}
+#schools4{
+	grid-column: 3 / span 2;
 }
 
-label{
-}
+
+
 
 
 

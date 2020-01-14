@@ -42,99 +42,74 @@
 <div id="cuerpo">
 	<div id ="logo"></div>
 	<h3>Registration Form</h3>
-				<form>
-					<label>Player´s First Name:<input type="text" name="playerName"></label>
-					<label>Last Name:<input type="text" name="playerLastName"></label>
-					<label>Street Address:</label><input type="text" name="address"></form>
-					<label>City:<input type="text" name="city"></label>
-					<label>Zip Code:<input type="text" name="zCode"></label>
-					<label>Birth date:<input type="date" name="bDate"></label>
-					<label>Gender
-					<label>
-					<input type="radio" value="male" name="gender" id="male">
-							Male</label>
-					<label>
-					<input type="radio" value="female" name="gender" id="female">
-							Female</label>
-					<label>
-					<input type="radio" value="no gender" name="gender" id="noGender">
-							No gender</label>
-					</label>
-					<label>Grade:
-					<label>
-					<input type="radio" name="grade" value="pre-School" id="pSchool">
-							Pre-School</label>
-					<label>
-					<input type="radio" name="grade" id="1st" value="1st">
-							1st</label>	
-					<label>					   
-					<input type="radio" name="grade" id="2nd" value="2nd">
-							2nd</label>
-					<label>
-					<input type="radio" name="grade" id="3rd" value="3rd">
-							3rd</label>
-					<label>
-					<input type="radio" name="grade" id="4rd" value="4rd">
-							4th</label>
-					<label>
-					<input type="radio" name="grade" id="5th" value="5th">
-							5th</label>
-					</label>
-					<label for="tutor">Parent/Guardian:<input type="text" name="tutor"></label>
-					<label for="phone">Contact Phone:<input type="text" name="phone"></label>
-					<label for="email">Contact Email:<input type="email" name="email"></label>
-					
-					<legend>Which elementary schools do you live near?</legend>
-					<label>First Closest School:
-					<label>
-					<input type="radio" name="fSchool" value="AJ_Katzenmaier">
-							AJ Katzenmaier</label>
-					<label>
-					<input type="radio" name="fSchool" value="Greenbay">
-							Greenbay</label>
-					<label>
-					<input type="radio" name="fSchool" value="Howard_A_Yeager">
-							Howard A Yeager</label>
-					<label>
-					<input type="radio" name="fSchool" value="Marjorie_P_Hart">
-							Marjorie P Hart</label>
-					<label>
-					<input type="radio" name="fSchool" value="North_Elementary">
-							North Elementary</label>
-					<label>
-					<input type="radio" name="fSchool" value="South_Elementary">
-							South Elementary</label>
-					</label>
-					</label>
+			<form>
+				<div id="formulario">	
+			
+						<label id="name" for="name">Player's First Name:</label>
+						<input type="text" name="name">
 
-					<label>Second Closest School:
-					<label>
-					<input type="radio" name="sSchool" value="AJ_Katzenmaier">
-							AJ Katzenmaier</label>
-					<label>
-					<input type="radio" name="sSchool" value="Greenbay">
-							Greenbay</label>
-					<label>
-					<input type="radio" name="sSchool" value="Howard_A_Yeager">
-							Howard A Yeager</label>
-					<label>
-					<input type="radio" name="sSchool" value="Marjorie_P_Hart">
-							Marjorie P Hart</label>
-					<label>
-					<input type="radio" name="sSchool" value="North_Elementary">
-							North Elementary</label>
-					<label>
-					<input type="radio" name="sSchool" value="South_Elementary">
-							South Elementary</label>
-					</label>
-					</label>
+						<label for="lName">Last Name:</label>
+						<input type="text" name="lName">
 
-					<legend><strong>What position(s) do you normally play?</strong> 
-					(check all that apply)</legend>
+						<label for="address">Street Address:</label>
+						<input type="text" name="address" id="addressTxt">
 
+						<label for="city">City:</label>
+						<input type="text" name="city">
 
-				</form>
+						<label for="zipCode">Zip Code:</label>
+						<input type="text" name="zipCode">
+
+						<label for="bDate">Birth Date:</label>
+						<input type="date" name="bDate">
+<div id="gender"
+						<label for="gender">Gender:</label>						
+						<input type="radio" name="gender" value="male">Male
+						<input type="radio" name="gender" value="female">Female
+						<input type="radio" name="gender" value="noGender">No gender
 </div>
+<div id="grade"
+						<label for="grade">Grade:</label>
+						<input type="radio" name="grade" value="pre-school">Pre-School
+						<input type="radio" name="grade" value="1st">1st
+						<input type="radio" name="grade" value="2nd">2nd
+						<input type="radio" name="grade" value="3rd">3rd
+						<input type="radio" name="grade" value="4th">4th
+						<input type="radio" name="grade" value="5th">5th
+</div>
+						<label for="tutor">Parent/Guardian</label>
+						<input type="text" name="tutor" id="tutorTxt">
+
+						<label for="phone">Contact Phone:</label>
+						<input type="text" name="phone">
+
+						<label for="email">Contact Email:</label>
+						<input type="email" name="email">
+
+						<legend id="qSchool"><strong>Which elementary schools do you live near?</strong></legend>
+
+						<label id="fCSchool" for="fSchool">First Closest School:</label>
+						<label id="sCSchool" for="sSchool"> Second Closest School:</label>
+					<div id="schools1">
+						<input type="radio" name="fSchool" value="aj_katzenmaier">AJ Katzenmaier
+						<input type="radio" name="fSchool" value="marjorie_p_hart">Marjorie P Hart
+					</div>
+					<div id="schools2">
+						<input type="radio" name="sSchool" value="aj_katzenmaier">AJ Katzenmaier
+						<input type="radio" name="sSchool" value="marjorie_p_hart">Marjorie P Hart
+					</div>
+					<div id="schools3">
+						<input type="radio" name="fSchool" value="greenbay">Greenbay
+						<input type="radio" name="fSchool" value="north_elementary">North Elementary
+					</div>
+					<div id="schools4">
+						<input type="radio" name="sSchool" value="greenbay">Greenbay
+						<input type="radio" name="sSchool" value="north_elementary">North Elementary
+					</div>
+
+
+					
+				</div>
 </article>
 	</section>
 	<footer>
