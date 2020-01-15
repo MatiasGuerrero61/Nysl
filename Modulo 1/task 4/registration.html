@@ -70,14 +70,14 @@
 </div>
 <div id="grade"
 						<label for="grade">Grade:</label>
-						<input type="radio" name="grade" value="pre-school">Pre-School
-						<input type="radio" name="grade" value="1st">1st
-						<input type="radio" name="grade" value="2nd">2nd
-						<input type="radio" name="grade" value="3rd">3rd
-						<input type="radio" name="grade" value="4th">4th
-						<input type="radio" name="grade" value="5th">5th
+						<input type="radio" name="grade" value="pre-school" class="grade">Pre-School
+						<input type="radio" name="grade" value="1st" class="grade">1st
+						<input type="radio" name="grade" value="2nd" class="grade">2nd
+						<input type="radio" name="grade" value="3rd" class="grade">3rd
+						<input type="radio" name="grade" value="4th" class="grade">4th
+						<input type="radio" name="grade" value="5th" class="grade">5th
 </div>
-						<label for="tutor">Parent/Guardian</label>
+						<label for="tutor" id="tutorLbl">Parent/Guardian</label>
 						<input type="text" name="tutor" id="tutorTxt">
 
 						<label for="phone">Contact Phone:</label>
@@ -90,25 +90,99 @@
 
 						<label id="fCSchool" for="fSchool">First Closest School:</label>
 						<label id="sCSchool" for="sSchool"> Second Closest School:</label>
-					<div id="schools1">
+					<div class="schools">
 						<input type="radio" name="fSchool" value="aj_katzenmaier">AJ Katzenmaier
-						<input type="radio" name="fSchool" value="marjorie_p_hart">Marjorie P Hart
-					</div>
-					<div id="schools2">
-						<input type="radio" name="sSchool" value="aj_katzenmaier">AJ Katzenmaier
-						<input type="radio" name="sSchool" value="marjorie_p_hart">Marjorie P Hart
-					</div>
-					<div id="schools3">
 						<input type="radio" name="fSchool" value="greenbay">Greenbay
-						<input type="radio" name="fSchool" value="north_elementary">North Elementary
+						<input type="radio" name="fSchool" value="howard_a_yeager">Howard A Yeager	
 					</div>
-					<div id="schools4">
+					<div class="schools"> 
+						<input type="radio" name="fSchool" value="marjorie_p_hart">Marjorie P Hart
+						<input type="radio" name="fSchool" value="north_elementary">North Elementary	
+						<input type="radio" name="fSchool" value="south_elementary">South Elementary
+					</div>
+					<div class="schools">
+						<input type="radio" name="sSchool" value="aj_katzenmaier">AJ Katzenmaier		
 						<input type="radio" name="sSchool" value="greenbay">Greenbay
-						<input type="radio" name="sSchool" value="north_elementary">North Elementary
+						<input type="radio" name="sSchool" value="howard_a_yeager">Howard A Yeager 
+					</div>
+					<div class="schools">
+					<input type="radio" name="sSchool" value="marjorie_p_hart">Marjorie P Hart
+					<input type="radio" name="sSchool" value="north_elementary">North Elementary
+					<input type="radio" name="sSchool" value="south_elementary">South Elementary
 					</div>
 
+					<legend id="position"><strong>What position(s) do you normally play? (check all that apply)</strong></legend>
 
-					
+					<div class="positions">
+						 <input type="checkbox" value="foward">Forward 
+						 <input type="checkbox" value="defense">Defense 
+					</div>
+					<div class="positions">
+						 <input type="checkbox" value="midfield">Midfield						 
+ 						 <input type="checkbox" value="goalkeeper">Goalkeeper
+					</div>
+
+					<legend id="position"><strong>What position(s) do you want to play? (check all that apply)</strong></legend>
+
+					<div class="positions">
+						 <input type="checkbox" value="foward">Forward 
+						 <input type="checkbox" value="defense">Defense 
+					</div>
+					<div class="positions">
+						 <input type="checkbox" value="midfield">Midfield						 
+ 						 <input type="checkbox" value="goalkeeper">Goalkeeper
+					</div>
+
+					<div id="uniformCh">
+					<input type="checkbox" name="hUniform" value=" already_have_a_uniform"> <strong>Already Have a Uniform</strong>
+					</div>
+
+					<legend id="js"><strong>Jersey Size:</strong></legend>
+
+					<legend id="ss"><strong>Shorts Size:</strong></legend>
+
+					<div class="sizes">
+						<input type="radio" name="jerseysS" value="youth_small">Youth Small 
+						<input type="radio" name="jerseysS" value="youth_medium">Youth Medium
+						<input type="radio" name="jerseysS" value="youth_large">Youth Large
+						<input type="radio" name="jerseysS" value="small">Small
+ 						</div>
+					<div class="sizes">
+						<input type="radio" name="jerseysS" value="medium">Medium
+						<input type="radio" name="jerseysS" value="large">Large 
+ 						<input type="radio" name="jerseysS" value="extra-large">Extra-Large
+					</div>
+
+					<div class="sizes">
+						<input type="radio" name="shortsS" value="youth_small">Youth Small 
+						<input type="radio" name="shortsS" value="youth_medium">Youth Medium
+						<input type="radio" name="shortsS" value="youth_large">Youth Large
+						<input type="radio" name="shortsS" value="small">Small
+ 						</div>
+					<div class="sizes">
+						<input type="radio" name="shortsS" value="medium">Medium
+						<input type="radio" name="shortsS" value="large">Large 
+ 						<input type="radio" name="shortsS" value="extra-large">Extra-Large
+					</div>
+
+					<h3 id="permission">Permission to Play</h3>
+
+					<p class="pPermission">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+					Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+					accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+					employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+					on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+					sponsored activities, which transportation.</p>
+
+					<p class="pPermission">By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+					cancellation policy and agree to its terms.</p>
+
+					<label for="signature">Parent/Guardian Signature:</label>
+					<input type="text" name="signature">
+
+					<label for="today">Date:</label>
+					<input type="date" name="today">
+						
 				</div>
 </article>
 	</section>
