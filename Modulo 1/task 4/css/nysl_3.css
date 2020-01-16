@@ -26,18 +26,18 @@
 }
 #titulo{
 	position: absolute;
-    font-size: 55px;
-    color: white;
-    left: 298px;
-    bottom: 335px;
-    font-family: 'Barlow', sans-serif;
+	padding: 10px;
+	font-size: 55px;
+	color: white;
+	left: 298px;
+	bottom: 335px;
+	font-family: 'Barlow', sans-serif;
 }
 #subtitulo{
+	padding: 10px;
 	margin:0 30px;
 	font-size: 40px;
-	background:#F7FE2E;
-	border:3px solid;
-	border-color:#FF8000;
+	background: linear-gradient(to right, rgba(255,251,5,1) 0%, rgba(255,200,0,1) 100%);
 	text-align: center;
 	font-family: 'Inconsolata', monospace;
 }
@@ -50,7 +50,7 @@
 	text-align: center;
 }
 #menu{
-	background:#11bf26;
+	background:linear-gradient(to right, rgba(32,214,230,1) 0%, rgba(18,230,177,1) 100%);
 	margin-left:30px;
 	height: 48vh;
 	width: 20vw;
@@ -66,19 +66,19 @@ article{
 	display: flex;
 	flex-direction: column;
 	background: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    width:72vw;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	width:72vw;
 }
 a{
 	font-family: 'Barlow', sans-serif;
-
+	
 }
 a:hover{
-	background-color: #F7FE2E;
-	color: #FF8000;
+	background-color: #1993a8;
+	color: #ededed;
 	cursor:pointer;
 }
 h3{
@@ -94,13 +94,13 @@ p{
 	background-size: cover;
 	width: 150px;
 	height: 150px;
-    position: absolute;
-    left: 9%;
-    top: 28%;
+	position: absolute;
+	left: 9%;
+	top: 24%;
 }
 .select{
-	background-color: #F7FE2E;
-	color: #FF8000;
+	background-color: #1993a8;
+	color: #ededed;
 }
 
 #events{
@@ -138,26 +138,26 @@ ol{
 	flex-wrap: wrap;
 	justify-content: center;
 }
- .date{
- 	text-align: center;
- }
- #tablas{
- 	display: flex;
- 	flex-direction: row;
- 	justify-content: center;
- 	flex-wrap: wrap;
- }
+.date{
+	text-align: center;
+}
+#tablas{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 #october{
 	padding-bottom: 30.5px;
 }
- table{
- 	margin: 5px;
- 	border: 2px solid black;
- }
+table{
+	margin: 5px;
+	border: 2px solid black;
+}
 
- td{
- 	padding:5px;
- }
+td{
+	padding:5px;
+}
 
 #contact{
 	display: flex;
@@ -172,9 +172,9 @@ th{
 	grid-template-columns: 2fr 2fr 2fr 2fr;
 	grid-gap: 10px;
 }
- #addressTxt{
- 	grid-column: 2 / span 3;
- }
+#addressTxt{
+	grid-column: 2 / span 3;
+}
 #gender{
 	grid-column: 3 / span 2;
 }
@@ -184,7 +184,7 @@ th{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-
+	
 }
 #tutorLbl{
 	grid-column: 1;
@@ -243,7 +243,32 @@ iframe{
 	margin:20px;
 	align-self: center;
 }
-
+input[type=submit]:hover{
+	background-color: #1993a8;
+	color: #ededed;
+	cursor:pointer;
+}
+.map{
+	display: none;
+}
+#map1:target{
+	display: block;
+}
+#map2:target{
+	display: block;
+}
+#map3:target{
+	display: block;
+}
+#map4:target{
+	display: block;
+}
+#map5:target{
+	display: block;
+}
+#map6:target{
+	display: block;
+}
 
 
 
